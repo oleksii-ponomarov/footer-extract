@@ -1,0 +1,27 @@
+{
+  "name": "footer-extract",
+  "version": "1.0.0",
+  "description": "A script that extracts current footer and related CSS from Grammarly home page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oleksii-ponomarov/footer-extract.git"
+  },
+  "author": "Oleksii Ponomarov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleksii-ponomarov/footer-extract/issues"
+  },
+  "homepage": "https://github.com/oleksii-ponomarov/footer-extract#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "fs-extra": "^9.0.1",
+    "prettier": "^2.1.2",
+    "puppeteer": "^5.3.1",
+    "uncss": "^0.17.3"
+  }
+}
